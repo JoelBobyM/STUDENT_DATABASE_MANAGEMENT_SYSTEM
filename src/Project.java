@@ -5,6 +5,7 @@ import javax.swing.table.*;
 import java.sql.*;
 class Project implements ActionListener
 {
+    int p;
     JFrame f1,f2,f3;
     JRadioButton r1,r2;
     JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13;
@@ -18,7 +19,6 @@ class Project implements ActionListener
     JTable ta;
     Connection c;
     Statement st;
-    int p;
     ResultSet r;
     boolean b;
     String user,pass,name,clas,admn,dob,add,s;
